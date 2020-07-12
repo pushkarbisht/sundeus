@@ -1,0 +1,81 @@
+﻿/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar {
+    background:transparent;
+    padding: 0;
+}
+.bg-dark {
+    /* background-color: #343a40 !important; */
+    background-color:white !important;
+    height: 50px !important;
+
+}
+.navbar .navbar-nav #user-profile img {
+    height: 37px;
+    width: 37px;;
+    padding: 1px;
+}
+.border-right {
+    border-right: 1px solid rgb(255,255,255);
+}
+
+.search-input, .search-button {
+    background-color: transparent;
+    border: 1px solid rgb(255,255,255);
+}
+
+.glyphicon-search:before, .glyphicon-bell:before, .glyphicon-question-sign:before, .glyphicon-log-in:before {
+    color: rgb(110,184,188);
+}
+
+.search-input::-webkit-input-placeholder {
+    color: rgb(110,184,188);
+}
+
+.search-input:-ms-input-placeholder {
+    color: rgb(110,184,188);
+}
+
+.fsearch-input::-moz-placeholder {
+    color: rgb(110,184,188);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgb(110,184,188);
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: 0.1em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.profile-block .dropdown-menu {
+    min-width: 13rem;
+}
+
+.profile-block .dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-block .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+
+.profile-block .dropdown-menu li .fa {
+    padding-right: 6px;
+}
+

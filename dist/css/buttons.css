@@ -1,0 +1,94 @@
+﻿.action-button {
+    border-radius: 9px;
+    margin-right: 10px;
+}
+.btn-primary:hover{
+    background-color: #fe7915;
+}
+.btn-primary {
+    background: #fe7915;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+}
+
+.btn-secondry {
+    background-color: #373f41;
+    color: #ffffff;
+    font-size: 16px !important;
+}
+
+input[type='button'].btn-primary {
+    background-color: #fe7915;
+    color: #FFFFFF;
+height:40px ;
+font-size: 16px;
+    border: none;
+}
+
+
+
+input[type='button'] {
+    font-weight: bold;
+    padding: 0 15px;
+    font-size: 16x;
+    background-color: #000000;
+    color: #ffffff;
+    height: 40px;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #E7EEF4;;
+    border: none;
+}
+
+.toggle-group .btn-secondary {
+    background: #2196F3;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #fe7915 !important;
+}
+
+.toggle-group .btn-success {
+    background: #DEE5EB;
+    color: #000;
+}
+
+.btn1:focus 
+ {
+     border:1px solid #fe7915; /* here configure as your needs */
+  }
+.btn1 {
+    border:2px solid #fe7915;
+    background-color:#FFFFFF;
+    color: #fe7915;
+    height: 32px;
+    width: 100px;
+    cursor: pointer;
+    padding-top: 4px;
+    box-shadow:  #888888;
+  }
+ 
+  .fa-plus-circle{
+    transform: scale(1.5,1.2);
+     }
+
+  .add{
+    font-size: 18px;
+padding-left: 4px;
+  }

@@ -1,0 +1,56 @@
+﻿.panel-group .panel {
+    border-radius: 0;
+}
+
+.card-header {
+    border-radius: 0;
+    padding: 0.1rem 0rem;
+}
+
+.card > .card-header {
+    background: #1A3263 ;
+    height: 35px !important;
+}
+
+.card-header button {
+    padding-top: 3px;
+    color: #fff;
+    font-weight: bold;
+    border:1px
+}
+
+
+.card > .card-header + .collapse {
+    border-top-color: #ddd;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+/** accordion **/
+.card-header h5 > button:before {
+    /* symbol for "opening" panels */
+    font-family: FontAwesome; /* essential for enabling glyphicon */
+    content: "\f068"; /* adjust as needed, taken from bootstrap.css */
+    color: white; /* adjust as needed */
+    padding-right: 5px;
+}
+
+.card-header h5 > button.collapsed:before {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; /* adjust as needed, taken from bootstrap.css */
+}
+
+.card-header h5 >  .btn-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.card-header h5 > .btn-link.focus, .card-header h5 > .btn-link:focus {
+    text-decoration: none;
+    border-color: transparent;
+    box-shadow: none;
+}

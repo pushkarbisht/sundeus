@@ -1,0 +1,171 @@
+﻿
+.c-icon__add-columns {
+    background: url(../img/add-columns.svg) no-repeat;
+    float: right;
+    margin-top: 2px;
+    width: 34px;
+    height: 31px;
+}
+
+.c-icon__sorting {
+    background: url(../img/up-down-arrow.svg) no-repeat;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.c-icon__view {
+    background: url(../img/c-icon__quickview--gray.svg) no-repeat;
+    width: 21px !important;
+    height: 21px !important;
+}
+
+.c-icon__view:focus, .c-icon__view:hover {
+    background: url(../img/c-icon__quickview--blue.svg) no-repeat;
+}
+
+.c-icon__delete {
+    background: url(../img/delete.png) no-repeat;
+}
+
+.c-icon__delete:focus, .c-icon__delete:hover {
+    background: url(../img/delete.png) no-repeat;
+}
+
+.c-icon__edit {
+    background: url(../img/Editlatest.svg) no-repeat;
+    width: 21px !important;
+    height: 21px !important;
+
+}
+
+.c-icon__edit:focus, .c-icon__edit:hover {
+    background: url(../img/c-icon__edit--blue.svg) no-repeat;
+}
+
+.c-icon__select-template {
+    background: url(../img/SelectTemplateorange.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+
+.active .c-icon__select-template {
+    background: url(../img/SelectTemplateWhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+
+.c-icon__enter-data {
+    background: url(../img/EnterDataOrange.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.3rem;
+    height: 1.6rem !important;
+}
+
+.active .c-icon__enter-data {
+    background: url(../img/EnterdataWhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.3rem;
+    height: 1.6rem !important;
+}
+
+.c-icon__validation {
+    background: url(../img/Validationorange.svg) no-repeat;
+    background-size: 1.4rem;
+    margin-right: 0 !important;
+    margin-left: 0.2rem;
+    height: 1.6rem !important;
+}
+.active .c-icon__validation {
+    background: url(../img/ValidationWhite.svg) no-repeat;
+    background-size: 1.4rem;
+    margin-right: 0 !important;
+    margin-left: 0.2rem;
+    height: 1.6rem !important;
+}
+.c-icon__signatures {
+    background: url(../img/Signatureorange.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+.active .c-icon__signatures {
+    background: url(../img/Signaturewhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+
+.c-icon__approvals {
+    background: url(../img/Approveorange.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+
+.active .c-icon__approvals {
+    background: url(../img/Approvewhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+.c-icon__reviewer {
+    background: url(../img/Reviewerorange.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+.active .c-icon__reviewer {
+    background: url(../img/Reviewerwhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.1rem;
+    height: 1.6rem !important;
+    margin-top: -0.3rem;
+}
+
+.c-icon__contract-type {
+    background: url(../img/ContractTypeORANGE.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.2rem;
+    height: 1.6rem !important;
+    margin-top: -0.2rem;
+}
+.active .c-icon__contract-type {
+    background: url(../img/ContractTypeWhite.svg) no-repeat;
+    background-size: 1.6rem;
+    margin-right: 0 !important;
+    margin-left: 0.2rem;
+    height: 1.6rem !important;
+    margin-top: -0.2rem;
+}
+
+.c-icon__large, .c-icon__medium, .c-table__link {
+    width: 2.5rem;
+    display: inline-block;
+}
+
+.c-icon__medium {
+    width: 25px;
+    height: 1.25rem;
+    vertical-align: middle;
+}

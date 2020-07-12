@@ -1,0 +1,107 @@
+﻿.table {
+    margin-bottom: 0px;
+    
+}
+
+/* .table th {
+    background: #343a40;
+    color: #ffffff;
+} */
+
+th, td {
+    border: 1px solid rgb(201, 201, 201) !important;
+}
+
+.table-rounded {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.table-sortable th {
+    padding:5px 10px !important;
+    font-size: 13px;
+    height: 32px;
+    font-weight: 600;
+}
+
+.table td {
+    height: 31px;
+    font-size: 14px !important;
+}
+.table th{
+    font-size: 16px !important;
+}
+
+.table-sortable th span {
+    float: right;
+}
+
+.table-sortable th svg {
+    width: 21px;
+    vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background: #ffffff;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+    background: #F2F2F2;
+}
+
+.jumbotron {
+   
+   height: 600px !important;
+   background: white;
+   padding-left: 10px;
+   padding-top:10px ;
+   padding-right: 10px;
+   margin-bottom: 30px;
+  }
+
+  table tr:nth-child(even) td{
+    background: #E7EEF4;
+}
+
+.head{
+    background-color: #D5E2F0;
+}
+.table > thead > tr > th{
+    vertical-align: middle;
+    font-weight: bold;
+    color: #004184;
+    background-color:#B9CFE6;
+}
+
+.table td, .table th {
+    padding: 5px 10px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.template-table td, .template-table th{
+    padding: 0.4rem;
+}
+
+.template-table td{
+    padding-top: 0.4rem;
+    padding-left: 0.4rem !important;
+}
+
+.template-table p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.contract-summary table th, .contract-summary table td{
+    padding: 0;
+    padding-top: 0.4rem;
+    padding-left: 0.4rem !important;
+    padding-bottom: 0.4rem;
+    margin: 0;
+}
+
+.contract-summary table td{
+    height: 0px;
+}

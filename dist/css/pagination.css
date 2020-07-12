@@ -1,0 +1,21 @@
+﻿.page-size {
+        width: 58%;
+       
+}
+
+.page-size .form-group {
+    padding-left: 0;
+}
+
+.pagination .active > a {
+    background: #f07416 !important;
+    border-color: #f07416 !important;
+}
+
+.page-navigation{
+    margin-right: 20px;
+}
+/* .pagination-block{
+    margin-top: 50px;
+
+} */

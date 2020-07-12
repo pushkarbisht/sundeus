@@ -1,0 +1,189 @@
+﻿/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+    text-align: center;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
+
+
+/*
+        * Sidebar
+        */
+
+        .nav-item {
+            border-bottom: solid 0px #E8E2DB;
+        }
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+.nav-link {
+    display: block;
+    padding: 10px 12px;
+    /* margin-top: 6px; */
+}
+    .sidebar .nav-link .feather {
+        margin-right: 4px;
+        color: #999;
+    }
+
+    .sidebar .nav-link.active {
+        color:white ;
+        padding: 10px 12px;
+
+        background-color: #E8E2DB;
+    }
+
+        .sidebar .nav-link:hover .feather,
+        .sidebar .nav-link.active .feather {
+            color: inherit;
+        }
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.sidebar .nav-link:hover .feather, .sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/* .nav-item {
+    margin-bottom: 10px;
+} */
+
+.nav-link svg {
+    width: 34px;
+    height: 34px;
+}
+
+.sidebar .nav-link .icon {
+    height: 26px;
+    display: block;
+    background-size: 20px !important;
+}
+
+.sidebar .nav-link .icon-dashboard {
+    background: url(../img/icons/MenuIcons/white/dashboardwhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-dashboard {
+    background: url(../img/icons/MenuIcons/Selected/dashboardSelected.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-commitments {
+    background: url(../img/icons/MenuIcons/white/commitmentwhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-commitments {
+    background: url(../img/icons/MenuIcons/Selected/commitmentSelected.svg)S no-repeat;
+}
+
+.sidebar .nav-link .icon-contract-type {
+    background: url(../img/icons/MenuIcons/white/ContractTypewhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-contract-type {
+    background: url(../img/icons/MenuIcons/Selected/ContractTypeSelected.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-template {
+    background: url(../img/icons/MenuIcons/white/Templatewhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-template {
+    background: url(../img/icons/MenuIcons/Selected/TemplateSelected.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-clause {
+    background: url(../img/icons/MenuIcons/white/clausewhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-clause {
+    background: url(../img/icons/MenuIcons/Selected/clauseselected.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-contracts {
+    background: url(../img/icons/MenuIcons/white/ContractWhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-contracts {
+    background: url(../img/icons/MenuIcons/Selected/ContractSelecteed.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-rules {
+    background: url(../img/icons/MenuIcons/white/ruleswhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-rules {
+    background: url(../img/icons/MenuIcons/Selected/rulesselected.svg) no-repeat;
+}
+
+.sidebar .nav-link .icon-settings {
+    background: url(../img/icons/MenuIcons/white/settingswhite.svg) no-repeat;
+}
+.sidebar .nav-link.active .icon-settings {
+    background: url(../img/icons/MenuIcons/Selected/settingsselected.svg) no-repeat;
+}
+
+.fa-bell-o {
+    font-size: 22px;
+}
+
+.fa-question-circle {
+    font-size: 22px;
+}
+
+a:hover {
+    color:  #0049bd;
+    text-decoration: none;
+}
+a {
+    
+    color: #012164;
+}
+
+#user-profile {
+    color:black ;
+}
+
